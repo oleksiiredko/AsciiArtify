@@ -13,7 +13,7 @@ Ascii Artify can be deployed on:
 | [**Kind**](https://kind.sigs.k8s.io) | A tool for running local Kubernetes clusters using Docker containers as nodes.  | - Can be used with any Docker-compatible runtime, including Docker Desktop. <br> - Supports multiple nodes for more complex environments. <br> - Good for testing Kubernetes functionality locally.  | - Limited performance compared to full Kubernetes clusters. <br> - May require manual configuration for some features. <br> - Requires some knowledge of Docker and Kubernetes. | Linux, macOS, Windows | Prometheus, Grafana, ELK Stack | Horizontal Pod Autoscaler | x86-64, ARM64 | Ansible, Terraform, Helm |
 | [**k3d**](https://k3d.io/v5.4.9/#installation)  | A lightweight Kubernetes distribution designed for local development and testing.  | - Fast and easy to set up and use. <br> - Supports multiple Kubernetes versions. <br> - Good for testing Kubernetes functionality locally.  | - Limited performance compared to full Kubernetes clusters. <br> - May require manual configuration for some features. <br> - Not as widely used as Minikube or Kind. | Linux, macOS | Prometheus, Grafana | Horizontal Pod Autoscaler | x86-64 | Ansible, Terraform, Helm |
 
-###Limitations:
+### Limitations:
 
 Docker is available under two different license models: the Docker Community Edition (CE) is licensed under the Apache License 2.0, while the Docker Enterprise Edition (EE) is licensed under a proprietary license.
 
@@ -25,7 +25,7 @@ In general, if you are using Docker CE, you can use it without any license limit
 
 
 
-###Conclusions:
+### Conclusions:
 
 For a proof of concept (POC), any of the three solutions (Minikube, Kind, or k3d) could work depending on your specific needs and preferences. However, if you are looking for a solution that is easy to set up and use, I would recommend either Minikube or k3d.
 
